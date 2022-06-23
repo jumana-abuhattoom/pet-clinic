@@ -10,7 +10,7 @@ pipeline {
             }
         }
         //this is new commit
-    
+           //new commit 
         stage("Save Artifact") {
             steps {
                 archiveArtifacts artifacts: 'target/*.jar', followSymlinks: false
