@@ -9,6 +9,7 @@ pipeline {
                 sh "mvn clean package"
             }
         }
+        //this is 2
         //this is new commit
            //new commit 
         stage("Save Artifact") {
